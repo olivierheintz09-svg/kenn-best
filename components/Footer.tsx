@@ -12,10 +12,10 @@ export default function Footer() {
               <Image
                 src="/Ontwerp zonder titel-84.png"
                 alt="Kenn Best"
-                height={34}
+                height={52}
                 width={0}
                 sizes="100vw"
-                style={{ height: '34px', width: 'auto' }}
+                style={{ height: '52px', width: 'auto' }}
               />
             </Link>
             <p className="text-gray-400 text-sm max-w-xs">

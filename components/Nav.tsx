@@ -18,16 +18,16 @@ export default function Nav() {
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src="/Ontwerp zonder titel-84.png"
               alt="Kenn Best"
-              height={44}
+              height={64}
               width={0}
               sizes="100vw"
-              style={{ height: '44px', width: 'auto' }}
+              style={{ height: '64px', width: 'auto' }}
               priority
             />
           </Link>
