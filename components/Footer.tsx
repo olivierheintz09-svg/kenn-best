@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -7,9 +8,18 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Logo + tagline */}
           <div>
-            <div className="text-2xl font-bold text-[#0055A5] mb-2">← KENN →</div>
+            <Link href="/" className="inline-flex items-center mb-2">
+              <Image
+                src="/Ontwerp zonder titel-84.png"
+                alt="Kenn Best"
+                height={34}
+                width={0}
+                sizes="100vw"
+                style={{ height: '34px', width: 'auto' }}
+              />
+            </Link>
             <p className="text-gray-400 text-sm max-w-xs">
-              Tweedehands voertuigen, strand & transport – vanuit Heemskerk.
+              Tweedehands voertuigen, strand &amp; transport – vanuit Heemskerk.
             </p>
           </div>
 

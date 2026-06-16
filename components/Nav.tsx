@@ -22,7 +22,7 @@ export default function Nav() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/k6B3P.jpg"
+              src="/Ontwerp zonder titel-84.png"
               alt="Kenn Best"
               height={44}
               width={0}
